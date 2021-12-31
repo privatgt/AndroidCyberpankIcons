@@ -28,3 +28,6 @@ jobs:
       # You may pin to the exact commit or the version.
       # uses: b4s36t4/Android-Action@bb5c066db6ca0824ee09ee640ca222888a0c2877
       uses: Code0987/android-ci-github-action@v0.1.0
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
