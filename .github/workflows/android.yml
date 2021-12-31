@@ -27,5 +27,5 @@ jobs:
       # uses: b4s36t4/Android-Action@bb5c066db6ca0824ee09ee640ca222888a0c2877
       uses: yurakurets/action-release-debugapk@0.0.7
       with:
-        GITHUB_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN:  ${{ secrets.TOKEN }}
       
