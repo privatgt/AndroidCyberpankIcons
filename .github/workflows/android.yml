@@ -30,4 +30,6 @@ jobs:
       uses: kyze8439690/action-release-releaseapk@1.0.0
       with:
         GITHUB_TOKEN:  ${{ secrets.TOKEN }}
+      env:
+        INPUT_GITHUB_TOKEN: ${{ secrets.TOKEN }}
       
