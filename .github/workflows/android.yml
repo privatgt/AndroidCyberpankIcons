@@ -2,9 +2,7 @@ name: Android CI
 
 on:
   push:
-    branches: 
-      - main
-      - release/*
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -29,4 +27,6 @@ jobs:
     - name: Android Builder
       # You may pin to the exact commit or the version.
       # uses: b4s36t4/Android-Action@bb5c066db6ca0824ee09ee640ca222888a0c2877
-      uses: vgaidarji/android-github-actions-build@v1.0.1
+      uses: b4s36t4/Android-Action@0.0.1
+      with: 
+        github_token: ${{ secrets.GITHUB_TOKEN }}
