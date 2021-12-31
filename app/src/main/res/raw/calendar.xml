@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" key="background">
+        <drawable value="" res="ic_dynamic_calendar"/>
+    </item>
+    <item type="text" key="day" alignX="center" alignY="center" offsetX="0dp" offsetY="-1dp" textSize = "20dp" font="sans-serif" color="#00F0FF" shoadowLayerX="1px" shadowLayerY="1px" shadowLayerRadius="1" shadowLayerColor="#F5F5F5" shadowLayerAlpha="0.059f"/>
+</resources>

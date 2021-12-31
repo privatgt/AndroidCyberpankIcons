@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- ADW Description-->
+<string name="authorName">One Plus</string>
+<string name="developerName">You</string>
+<string name="authorLink"></string>
+<string name="dock_pack_title">Cyberpunk</string>
+<string name="icon_pack_title">Cyberpunk</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Basic theme information -->
+    <string name="action_settings">Settings</string>
+    <string name="theme_title">Cyberpunk</string>
+    <string name="title_activity_icons">Cyberpunk</string>
+    <string name="developer_name">I</string>
+    <!-- This (optional) link will appear at the end of the theme description -->
+    <string name="developer_link"></string>
+    <string name="theme_description">Cyberpunk</string>
+
+    <!-- Theme settings -->
+    <!-- The feature graphic will appear above the theme description -->
+    <string name="theme_feature">feature</string>
+
+    <!-- Each theme may have up to 5 preview images -->
+	
+	<!--ADW Strings-->
+	<string name="hello">Cyberpunk theme</string>
+	<string name="app_name">Cyberpunk</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PluginConfig>
+  <iconCalendar/>
+  <iconClock/>
+  <iconWeather/>
+  <lockscreen>
+    <advance_TestWallpaper/>
+    <advance_52086045_AutoWallpaper/>
+  </lockscreen>
+  <desktopClock/>
+  <desktopWallpaper/>
+</PluginConfig>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="icon_pack">
+        <item>ic_amap</item>
+        <item>ic_browser</item>
+        <item>ic_calculator</item>
+        <item>ic_camera</item>
+        <item>ic_calendar</item>
+        <item>ic_cardpackage</item>
+        <item>ic_clock</item>
+        <item>ic_contact</item>
+        <item>ic_filemanager</item>
+        <item>ic_gallery</item>
+        <item>ic_mail</item>
+        <item>ic_message</item>
+        <item>ic_music</item>
+        <item>ic_note</item>
+        <item>ic_phone</item>
+        <item>ic_recorder</item>
+        <item>ic_setting</item>
+        <item>ic_store</item>
+        <item>ic_weather_unknow</item>
+    </string-array>
+</resources>

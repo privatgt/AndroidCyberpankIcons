@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextClock android:textSize="144.0px" android:textColor="#FFfbeb0c" android:id="@+id/day_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_alignParentTop="true" android:textAllCaps="false" android:fontFamily="@font/oneplus_font_display_45lt" android:layout_alignParentStart="true" android:format12Hour="EEEE" android:format24Hour="EEEE"  />
+    <RelativeLayout android:id="@+id/clock_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/day_text" android:layoutDirection="ltr">
+        <TextClock android:textSize="144.0px" android:textColor="#FFfbeb0c" android:id="@+id/clock_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="@font/oneplus_font_display_45lt" android:layout_alignParentStart="true" android:format12Hour="h" android:format24Hour="HH"  />
+        <TextView android:textSize="144.0px" android:textColor="#FFfbeb0c" android:id="@+id/clock_colon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="∶" android:layout_centerVertical="true" android:fontFamily="@font/oneplus_font_display_45lt" android:layout_toEndOf="@+id/clock_hour"  />
+        <TextClock android:textSize="144.0px" android:textColor="#FFfbeb0c" android:id="@+id/clock_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:fontFamily="@font/oneplus_font_display_45lt" android:layout_toEndOf="@+id/clock_colon" android:format12Hour="mm" android:format24Hour="mm"  />
+    </RelativeLayout>
+    <TextClock android:textSize="48.0px" android:textColor="#FF00f0ff" android:id="@+id/date_text" android:paddingTop="12.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_below="@+id/clock_group" android:textAllCaps="false" android:fontFamily="@font/oneplus_font_text_45lt" android:layout_alignParentStart="true" android:format12Hour="MMMM d" android:format24Hour="MMMM d"  />
+</RelativeLayout>

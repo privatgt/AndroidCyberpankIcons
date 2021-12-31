@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <version>1</version>
+
+    <item drawable="ic_browser"/>
+    <item drawable="ic_calculator"/>
+    <item drawable="ic_calendar"/>
+    <item drawable="ic_camera"/>
+    <item drawable="ic_cardpackage"/>
+    <item drawable="ic_community"/>
+    <item drawable="ic_contact"/>
+    <item drawable="ic_filemanager"/>
+    <item drawable="ic_gallery"/>
+    <item drawable="ic_message"/>
+    <item drawable="ic_note"/>
+    <item drawable="ic_phone"/>
+    <item drawable="ic_recorder"/>
+    <item drawable="ic_setting"/>
+    <item drawable="ic_store"/>
+    <item drawable="ic_weather_default"/>
+    <item drawable="ic_gamespace"/>
+    <item drawable="ic_zenmode"/>
+    <item drawable="ic_moving"/>
+    <item drawable="ic_screen_recorder"/>
+    <item dynamic_drawable="ic_calendar" component="com.google.android.calendar/com.android.calendar.AllInOneActivity" xml="calendar" />
+    <item dynamic_drawable="ic_clock" component="com.google.android.deskclock/com.android.deskclock.DeskClock" xml="clock" />
+</resources>
