@@ -29,5 +29,5 @@ jobs:
       # uses: b4s36t4/Android-Action@bb5c066db6ca0824ee09ee640ca222888a0c2877
       uses: kyze8439690/action-release-releaseapk@1.0.0
       with:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        GITHUB_TOKEN: ${{ github.token }}
       
