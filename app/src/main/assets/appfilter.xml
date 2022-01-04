@@ -5,14 +5,19 @@
     <force_add_shadow value="true" />
     <icon_shape value="1" />
     <item component="ComponentInfo{com.oneplus.deskclock/com.oneplus.deskclock.DeskClock}" xml="clock" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" xml="clock" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="ic_calendar" />
+    <item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
+    <item component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" xml="calendar" />
     <item component="ComponentInfo{com.oneplus.deskclock/com.oneplus.deskclock.DeskClock}" drawable="ic_clock" />
     <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="ic_clock" />
     <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="ic_camera" />
-	<item component="ComponentInfo{com.google.android.camera/com.android.camera.Camera}" drawable="ic_camera" />
-	<item component="ComponentInfo{com.google.android.GoogleCameraNext/com.android.camera.CameraLauncher}" drawable="ic_camera" />
+    <item component="ComponentInfo{com.google.android.camera/com.android.camera.Camera}" drawable="ic_camera" />
+    <item component="ComponentInfo{com.google.android.GoogleCameraNext/com.android.camera.CameraLauncher}" drawable="ic_camera" />
     <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="ic_camera" />
-	<item component="ComponentInfo{com.google.android.GoogleCamera.Urnyx/com.android.camera.CameraLauncher}" drawable="ic_camera" />
-	<item component="ComponentInfo{com.google.android.GoogleCameraEng/com.android.camera.CameraLauncher}" drawable="ic_camera" />
+    <item component="ComponentInfo{org.lineageos.snap/com.android.camera.CameraLauncher}" drawable="ic_camera" />
+    <item component="ComponentInfo{com.google.android.GoogleCamera.Urnyx/com.android.camera.CameraLauncher}" drawable="ic_camera" />
+    <item component="ComponentInfo{com.google.android.GoogleCameraEng/com.android.camera.CameraLauncher}" drawable="ic_camera" />
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="ic_setting" />
     <item component="ComponentInfo{com.android.contacts/com.oneplus.contacts.activities.OPDialtactsActivity}" drawable="ic_phone" />
     <item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="ic_contact" />
@@ -33,21 +38,26 @@
     <item component="ComponentInfo{com.android.dialer/com.android.dialer.app.DialtactsActivity}" drawable="ic_phone" />
     <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="ic_phone" />
     <item component="ComponentInfo{com.android.mms/com.android.mms.ui.conversationlist.ConversationListActivity}" drawable="ic_message" />
+    <item component="ComponentInfo{com.android.messaging/com.android.messaging.ui.conversationlist.ConversationListActivity}" drawable="ic_message" />
     <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="ic_message" />
     <item component="ComponentInfo{com.oneplus.mms/com.android.mms.ui.ConversationList}" drawable="ic_message" />
     <item component="ComponentInfo{com.alibaba.aliexpresshd/com.alibaba.aliexpresshd.home.ui.MainActivity}" drawable="ic_com_alibaba_wireless" />
     <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="ic_message" />
     <item component="ComponentInfo{com.nearme.browser/com.android.browser.BrowserActivity}" drawable="ic_browser" />
+    <item component="ComponentInfo{org.gnu.icecat/org.gnu.icecat.App}" drawable="ic_browser" />
     <item component="ComponentInfo{com.heytap.browser/com.android.browser.BrowserActivity}" drawable="ic_browser" />
     <item component="ComponentInfo{com.android.browser/com.android.browser.MainActivity}" drawable="ic_browser" />
     <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="ic_browser" />
     <item component="ComponentInfo{org.mozilla.fenix/org.mozilla.fenix.App}" drawable="ic_browser" />
     <item component="ComponentInfo{com.oneplus.market/com.oneplus.market.activity.MainActivity}" drawable="ic_store" />
+    <item component="ComponentInfo{org.fdroid.fdroid/org.fdroid.fdroid.views.main.MainActivity}" drawable="ic_store" />
     <item component="ComponentInfo{com.oppo.market/com.oppo.market.activity.MainActivity}" drawable="ic_store" />
     <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="ic_store" />
     <item component="ComponentInfo{com.oneplus.note/com.oneplus.note.ui.MainActivity}" drawable="ic_note" />
     <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="ic_note" />
+    <item component="ComponentInfo{com.spisoft.quicknote/com.spisoft.quicknote.MainActivity}" drawable="ic_note" />
     <item component="ComponentInfo{com.oneplus.filemanager/com.oneplus.filemanager.HomePageActivity}" drawable="ic_filemanager" />
+    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="ic_filemanager" />
     <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.Launcher2Activity}" drawable="ic_filemanager" />
     <item component="ComponentInfo{com.speedsoftware.rootexplorer/com.speedsoftware.rootexplorer.RootExplorer}" drawable="ic_filemanager" />
     <item component="ComponentInfo{com.urbandictionary.android/host.exp.exponent.MainActivity}" drawable="ic_com_shanbay_words" />
@@ -60,18 +70,17 @@
     <item component="ComponentInfo{com.android.contacts/com.oneplus.contacts.activities.OPPeopleActivity}" drawable="ic_contact" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="ic_contact" />
     <item component="ComponentInfo{com.oneplus.soundrecorder/com.oneplus.soundrecorder.SoundRecorder}" drawable="ic_recorder" />
+    <item component="ComponentInfo{org.lineageos.recorder/org.lineageos.recorder.RecorderActivity}" drawable="ic_recorder" />
     <item component="ComponentInfo{com.google.android.apps.recorder/com.google.android.apps.recorder.ui.recordings.MainActivity}" drawable="ic_recorder" />
     <item component="ComponentInfo{com.oneplus.calculator/com.oneplus.calculator.Calculator}" drawable="ic_calculator" />
     <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="ic_calculator" />
+    <item component="ComponentInfo{com.google.android.calculator2/com.android.calculator2.Calculator}" drawable="ic_calculator" />
     <item component="ComponentInfo{com.oneplus.gallery/com.oneplus.gallery.OPGalleryActivity}" drawable="ic_gallery" />
     <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="ic_gallery" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="ic_gallery" />
     <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="ic_calendar" />
-    <item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
     <item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" drawable="ic_calendar" />
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="ic_me_bluemail_mail" />
-    
-    
     <item component="ComponentInfo{com.oneplus.card/com.oneplus.card.entity.activity.MainActivity}" drawable="ic_cardpackage" />
     <item component="ComponentInfo{com.oneplus.card/com.oneplus.card.entity.activity.CardlistActivity}" drawable="ic_cardpackage" />
     <item component="ComponentInfo{com.oneplus.card/com.oneplus.card.activity.MainActivity}" drawable="ic_cardpackage" />
@@ -165,7 +174,6 @@
     <item component="ComponentInfo{com.huawei.health/com.huawei.health.MainActivity}" drawable="ic_com_huawei_health" />
     <item component="ComponentInfo{com.ifreetalk.ftalk/com.ifreetalk.ftalk.activity.DummyActivity}" drawable="ic_com_ifreetalk_ftalk" />
     <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="ic_com_google_android_apps_youtube_unplugged" />
-    
     <item component="ComponentInfo{com.imaginer.yunji/com.kdssa.sdk.csj.SplashActivity}" drawable="ic_com_imaginer_yunji" />
     <item component="ComponentInfo{com.jianshu.haruki/com.baiji.jianshu.ui.splash.SplashScreenActivity}" drawable="ic_com_jianshu_haruki" />
     <item component="ComponentInfo{com.jzyd.coupon/com.jzyd.coupon.page.launcher.SplashActivity}" drawable="ic_com_jzyd_coupon" />
