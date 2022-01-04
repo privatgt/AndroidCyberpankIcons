@@ -27,7 +27,7 @@ jobs:
       with:
         arguments: build
     - name: Release
-      uses: phuonghuynh/action-ghrelease@ghr-options
+      uses: phuonghuynh/action-ghrelease@v1
       env:
          GITHUB_REF: 'refs/tags/main'
          GHR_COMPRESS: xz
