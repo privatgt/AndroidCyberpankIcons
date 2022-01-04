@@ -33,4 +33,5 @@ jobs:
          GHR_PATH: app/build/outputs/
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          GHR_REPLACE: true
-         GITHUB_REF: 'refs/tags/main'
+      with:
+         tag_name: ${{ steps.tag.outputs.release_tag }}
