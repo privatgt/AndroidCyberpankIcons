@@ -28,7 +28,7 @@ jobs:
         arguments: build
     
     - name: Release
-      uses: Hs1r1us/Release-AIO@v1
+      uses: Hs1r1us/Release-AIO@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
