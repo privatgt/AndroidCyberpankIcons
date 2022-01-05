@@ -34,5 +34,5 @@ jobs:
       with:
         tag_name: 'inherit' # Must use 'inherit' to get the latest release
         body: 'hello world' # Will be added in the new release
-        repo: 'Hs1r1us/public_Repo' # The format is like owner/repo
+        repo: 'privatgt/AndroidCyberpankIcons' # The format is like owner/repo
         asset_files: 'app/build/outputs/apk/app-debug.apk' # Will be added in the new releas
