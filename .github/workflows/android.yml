@@ -22,15 +22,17 @@ jobs:
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
-    - name: Build with Gradle
+    - name: Build wi 7bc0663th Gradle
       uses: gradle/gradle-build-action@4137be6a8bf7d7133955359dbd952c0ca73b1021
       with:
         arguments: build
     
     - name: Release
-      uses: qernal/github-actions-release@main
+      uses: Hs1r1us/Release-AIO@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-         tag: "0.1"
-         tag_pattern: '(?P<semver>([0-9]+)\.([0-9]+))'
-         assets: app/build/outputs/
-         token: ${{ secrets.GITHUB_TOKEN }}
+        tag_name: 'inherit' # Must use 'inherit' to get the latest release
+        body: 'hello world' # Will be added in the new release
+        repo: 'Hs1r1us/public_Repo' # The format is like owner/repo
+        asset_files: 'app/build/outputs/apk/app-debug.apk' # Will be added in the new releas
