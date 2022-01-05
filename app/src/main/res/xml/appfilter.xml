@@ -8,6 +8,7 @@
     <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" xml="clock" />
     <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" xml="ic_clock" />
     <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="ic_calendar" />
+    <item component="ComponentInfo{org.lineageos.etar/com.android.calendar.LaunchActivity}" drawable="ic_calendar" />
     <item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
     <item component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" xml="ic_calendar" />
     <item component="ComponentInfo{com.oneplus.deskclock/com.oneplus.deskclock.DeskClock}" drawable="ic_clock" />
