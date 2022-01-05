@@ -5,6 +5,7 @@
     <force_add_shadow value="true" />
     <icon_shape value="1" />
     <item component="ComponentInfo{com.oneplus.deskclock/com.oneplus.deskclock.DeskClock}" xml="clock" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" xml="clock" />
     <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" xml="ic_clock" />
     <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="ic_calendar" />
     <item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
