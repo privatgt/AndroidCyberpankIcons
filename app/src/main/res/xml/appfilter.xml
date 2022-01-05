@@ -5,10 +5,10 @@
     <force_add_shadow value="true" />
     <icon_shape value="1" />
     <item component="ComponentInfo{com.oneplus.deskclock/com.oneplus.deskclock.DeskClock}" xml="clock" />
-    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" xml="clock" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" xml="ic_clock" />
     <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="ic_calendar" />
     <item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
-    <item component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" xml="calendar" />
+    <item component="ComponentInfo{org.lineageos.etar/com.android.calendar.AllInOneActivity}" xml="ic_calendar" />
     <item component="ComponentInfo{com.oneplus.deskclock/com.oneplus.deskclock.DeskClock}" drawable="ic_clock" />
     <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="ic_clock" />
     <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="ic_camera" />
@@ -20,6 +20,7 @@
     <item component="ComponentInfo{com.google.android.GoogleCameraEng/com.android.camera.CameraLauncher}" drawable="ic_camera" />
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="ic_setting" />
     <item component="ComponentInfo{com.android.contacts/com.oneplus.contacts.activities.OPDialtactsActivity}" drawable="ic_phone" />
+    <item component="ComponentInfo{com.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="ic_phone" />
     <item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="ic_contact" />
     <item component="ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="ic_contact" />
     <item component="ComponentInfo{com.android.contacts/com.android.dialer.app.DialtactsActivity}" drawable="ic_phone" />
@@ -65,7 +66,6 @@
     <item component="ComponentInfo{com.nvidia.valvesoftware.source/in.celest.LauncherActivity}" drawable="ic_com_ztgame_yyzy" />
     <item component="ComponentInfo{com.dp.logcatapp/com.dp.logcatapp.activities.SplashActivity}" drawable="ic_com_youdao_note" />
     <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="ic_gamecenter" />
-    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="ic_download" />
     <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" xml="clock" />
     <item component="ComponentInfo{com.android.contacts/com.oneplus.contacts.activities.OPPeopleActivity}" drawable="ic_contact" />
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="ic_contact" />
@@ -75,9 +75,11 @@
     <item component="ComponentInfo{com.oneplus.calculator/com.oneplus.calculator.Calculator}" drawable="ic_calculator" />
     <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="ic_calculator" />
     <item component="ComponentInfo{com.google.android.calculator2/com.android.calculator2.Calculator}" drawable="ic_calculator" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="ic_calculator" />
     <item component="ComponentInfo{com.oneplus.gallery/com.oneplus.gallery.OPGalleryActivity}" drawable="ic_gallery" />
     <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="ic_gallery" />
     <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="ic_gallery" />
+    <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="ic_gallery" />
     <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" xml="calendar" />
     <item component="ComponentInfo{com.oneplus.calendar/com.android.calendar.AllInOneActivity}" drawable="ic_calendar" />
     <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="ic_me_bluemail_mail" />
